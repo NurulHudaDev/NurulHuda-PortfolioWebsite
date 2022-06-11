@@ -1,0 +1,47 @@
+.top-banner{
+    background-image: url(../../images/banner_image.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-banner-overlay{
+    position: absolute;
+    min-height: 600px;
+    width: 100%;
+    background: rgba(240, 240, 240, 0.1);
+}
+.top-banner-content{
+    margin-top: 12rem;
+}
+.top-banner-content h1{
+    color: rgb(9, 9, 195);
+}
+.top-banner-content h2{
+    color: rgb(35, 34, 34);
+}
+.top-banner-button1{
+    background-color: rgb(9, 9, 195);
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.top-banner-button1:hover{
+    background-color: rgb(24, 24, 41);
+}
+.top-banner-button2{
+    margin-left: 20px;
+    background-color: gainsboro;
+    padding: 10px;
+    border: none;
+}
+.top-banner-button2:hover{
+    background-color: ghostwhite;
+}
+.banner-image img{
+    width: 450px;
+    margin-top: 4rem;
+    margin-left: 120px;
+}

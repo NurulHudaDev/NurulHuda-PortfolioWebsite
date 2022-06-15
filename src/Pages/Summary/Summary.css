@@ -1,0 +1,25 @@
+.summary-banner {
+    background-image: url(../../images/banner_image.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.summary-banner-overlay {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background: rgba(7, 11, 139, 0.5);
+}
+
+.summary-conten {
+    margin-top: 10rem;
+    color: #fff;
+}

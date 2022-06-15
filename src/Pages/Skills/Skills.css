@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+/* body {
+	background-color: #f4f4f4;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+} */
+.sikills{
+    margin-top: 120px;
+}
+.sikill{
+	color: rgb(12, 12, 199);
+}
+.font-awesome{
+	color: rgb(8, 8, 183);
+}
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 10px 0;
+	height: 15px;
+	width: 100%;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #7d70f2, #72afff);
+	box-shadow: 0 3px 3px -5px #7072f2, 0 2px 5px #70b3f2;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}

@@ -1,0 +1,18 @@
+.nav-titel{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.nav-title-scroll{
+    font-size: 20px;
+    color: rgb(11, 11, 210);
+    font-weight: 600; 
+}
+.nav-bg{
+    background-color: rgb(3, 6, 36);
+    padding: 15px;
+}
+.nav-bg-scroll{
+    background-color: rgb(16, 36, 255);
+    padding: 15px;
+}

@@ -1,8 +1,8 @@
 .servic-cards{
-    gap: 20px;
+    gap: 40px;
 }
 .servic-card{
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 5px;
     box-shadow: rgba(4, 0, 255, 0.35) 0px 5px 15px;
 }

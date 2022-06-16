@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import * as ReactDOM from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareFull } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css'
 const Skills = () => {
     const Progress = ({done}) => {
@@ -37,7 +39,7 @@ const Skills = () => {
                 <h2 className='text-center mb-4 sikill'>SKILLS</h2>
                 <Row>
                <Col lg={3} md={6} sm={12}>
-               <h3>Frontend Developer</h3>
+               <h3><FontAwesomeIcon className='font-awesome' icon={faSquareFull} />Frontend Developer</h3>
                 <div>
                     <h4>HTML</h4>
                     <Progress done="70"/>
@@ -54,7 +56,7 @@ const Skills = () => {
                 </div>
                </Col>
                <Col lg={3} md={6} sm={12}>
-               <h3>Backend Developer</h3>
+               <h3><FontAwesomeIcon className='font-awesome' icon={faSquareFull} /> Backend Developer</h3>
                 <div>
                     <h4>Node Js</h4>
                     <Progress done="60"/>
@@ -73,7 +75,7 @@ const Skills = () => {
                 </div>
                </Col>
                <Col lg={3} md={6} sm={12}>
-               <h3>Graphic Design</h3>
+               <h3><FontAwesomeIcon className='font-awesome' icon={faSquareFull} /> Graphic Design</h3>
                 <div>
                     <h4>Logo Design</h4>
                     <Progress done="90"/>
@@ -104,7 +106,7 @@ const Skills = () => {
                 </div>
                </Col>
                <Col lg={3} md={6} sm={12}>
-               <h3>Photo Editing</h3>
+               <h3><FontAwesomeIcon className='font-awesome' icon={faSquareFull} /> Photo Editing</h3>
                 <div>
                     <h4>Background Remover</h4>
                     <Progress done="80"/>

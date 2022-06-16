@@ -36,7 +36,7 @@ const Skills = () => {
     return (
         <div>
             <Container className='sikills'>
-                <h2 className='text-center mb-4 sikill'>SKILLS</h2>
+                <h2 className='text-center mb-5 sikill'>SKILLS</h2>
                 <Row>
                <Col lg={3} md={6} sm={12}>
                <h3><FontAwesomeIcon className='font-awesome' icon={faSquareFull} />Frontend Developer</h3>

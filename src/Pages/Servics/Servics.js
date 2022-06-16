@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, CardGroup, Card } from 'react-bootstrap'
+import { Container, CardGroup, Card } from 'react-bootstrap'
 import WebDeveloparIcon from '../../Icon/web-developar-icon.png'
 import GraphicDesignIcon from '../../Icon/graphic-design-icon.png'
 import PhotoEditingIcon from '../../Icon/photo-editing-icon.png'

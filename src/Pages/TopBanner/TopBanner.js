@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
-import BannerImage from '../../images/banner_image1.png'
+// import BannerImage from '../../images/banner_image1.png'
 import './TopBanner.css';
 
 const TopBanner = () => {

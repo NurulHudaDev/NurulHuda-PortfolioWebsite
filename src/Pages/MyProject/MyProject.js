@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
+import { Card, CardGroup, Container } from 'react-bootstrap';
 import webSiteImage1 from '../../images/web-site-image1.png'
 import webSiteImage2 from '../../images/web-site-image2.png'
 import webSiteImage3 from '../../images/web-site-image3.png'

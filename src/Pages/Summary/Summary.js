@@ -12,7 +12,7 @@ const Summary = () => {
                         <Col lg={4} md={6} sm={12} className='d-flex justify-content-center text-center summary-conten'>
                             <div>
                             <h2>
-                                    <CountUp start={0} end={100}>
+                                    <CountUp start={0} end={28}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start}>
                                                 <span ref={countUpRef} />
@@ -20,14 +20,14 @@ const Summary = () => {
                                         )}
                                     </CountUp>
                                 </h2>
-                                <h4>Total Projacts</h4>
+                                <h4>Web Development Projacts</h4>
                                 <hr className='bg-white w-30' />
                             </div>
                         </Col>
                         <Col lg={4} md={6} sm={12} className='d-flex justify-content-center text-center summary-conten'>
                             <div>
                             <h2>
-                                    <CountUp start={0} end={100}>
+                                    <CountUp start={0} end={130}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start}>
                                                 <span ref={countUpRef} />
@@ -35,14 +35,14 @@ const Summary = () => {
                                         )}
                                     </CountUp>
                                 </h2>
-                                <h4>Total Projacts</h4>
+                                <h4>Graphic Design Projacts</h4>
                                 <hr className='bg-white w-30' />
                             </div>
                         </Col>
                         <Col lg={4} md={6} sm={12} className='d-flex justify-content-center text-center summary-conten'>
                             <div>
                             <h2>
-                                    <CountUp start={0} end={100}>
+                                    <CountUp start={0} end={20}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start}>
                                                 <span ref={countUpRef} />
@@ -50,7 +50,7 @@ const Summary = () => {
                                         )}
                                     </CountUp>
                                 </h2>
-                                <h4>Total Projacts</h4>
+                                <h4>Photo Editing Projacts</h4>
                                 <hr className='bg-white w-30' />
                             </div>
                         </Col>

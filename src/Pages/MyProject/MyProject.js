@@ -78,9 +78,9 @@ const MyProject = () => {
     // </div>
 
 
-    <div>
+    <div className='Projeacts'>
       <Container>
-        <h2> Responsive </h2>
+        <h2 className='text-center mb-5'>MY PROJEACTS</h2>
         <Slider {...settings}>
           <div className='salid-contenar'>
             <div className='salid-conten'>

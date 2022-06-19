@@ -13,21 +13,21 @@ const Servics = () => {
                 <CardGroup className='servic-cards'>
                     <Card className='servic-card text-center'>
                         <Card.Body>
-                            <img src={WebDeveloparIcon} alt='' />
+                            <img className='Servics-image' src={WebDeveloparIcon} alt='' />
                             <h2>web development</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </Card.Body>
                     </Card>
                     <Card className='servic-card text-center'>
                         <Card.Body>
-                            <img src={GraphicDesignIcon} alt='' />
+                            <img className='Servics-image' src={GraphicDesignIcon} alt='' />
                             <h2>graphic design</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </Card.Body>
                     </Card>
                     <Card className='servic-card text-center'>
                         <Card.Body>
-                            <img src={PhotoEditingIcon} alt='' />
+                            <img className='Servics-image' src={PhotoEditingIcon} alt='' />
                             <h2>photo editing</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </Card.Body>

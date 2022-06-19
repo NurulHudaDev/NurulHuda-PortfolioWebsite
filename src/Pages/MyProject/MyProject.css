@@ -1,54 +1,34 @@
-.projeact-cards{
-    gap: 40px;
+.projects{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
 }
-.projeact-card{
-    padding: 20px 10px;
-    border-radius: 5px;
-    box-shadow: rgba(4, 0, 255, 0.35) 0px 5px 15px;
+
+.card-project{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 500px;
 }
-.projeact-titel{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    font-weight: 600;
-    color: rgb(7, 7, 186);
-}
-.projeact-image{
-    width: 300px;
-}
-.projeact-button{
-    text-decoration: none;
-    font-size: 15px;
-    color: #fff;
-    background-color: rgb(14, 14, 124);
-    padding: 10px;
-    border-radius: 5px;
+.card-top > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 25px;
 }
 .slick-prev:before, 
 .slick-next:before{
     background-color: blue;
     border-radius: 15px;
 }
+.slick-slide > div {
+    margin: 0 18px;
+  }
+  .slick-list {
+    margin: 0 -18px;
+  }
 
-.Projeacts{
-    margin-top: 100px;
-}
-.salid-conten{
-    margin: 0 2px;
-}
-.card{
-    background-color: rgb(245, 244, 244);
-    border-radius: 25px;
-    width: 350px;
-}
-.image-contend,
-.card-contend{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-    text-align: center;
-}
-.image-contend{
+  .image-content{
     position: relative;
 }
 .overlay{
@@ -59,6 +39,7 @@
     top: 0;
     position: absolute;
     border-radius: 25px 25px 0 25px;
+    z-index: -2;
 }
 .overlay::before,
 .overlay::after{
@@ -72,8 +53,18 @@
 }
 .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color: rgb(245, 244, 244);
+    background-color: #fff;
 }
-.card-image{
-    z-index: 2;
+.card-bottom{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.projeact-button{
+    text-decoration: none;
+    background-color: #4070F4;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
-// import BannerImage from '../../images/banner_image1.png'
+import BannerImage from '../../images/banner_image1.png'
 import './TopBanner.css';
 
 const TopBanner = () => {
@@ -19,8 +19,8 @@ const TopBanner = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className='banner-image' md={6} sm={12}>
-                        {/* <img src={BannerImage} alt="" srcset="" /> */}
+                    <Col className='banner-image d-flex justify-content-center align-items-center py-3' md={6} sm={12}>
+                        <img src={BannerImage} alt="" srcset="" />
                     </Col>
                 </Row>
             </Container>

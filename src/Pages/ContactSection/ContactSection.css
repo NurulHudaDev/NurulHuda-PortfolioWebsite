@@ -1,0 +1,15 @@
+.contact-section{
+    margin-top: 120px;
+}
+.fb-massage{
+    text-decoration: none;
+    background-color: #4070F4;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.font-control:focus{
+    border-color: blue !important;
+    border-radius: 2px !important;
+    box-shadow: rgba(12, 20, 249, 0.24) 0px 3px 8px !important;
+}

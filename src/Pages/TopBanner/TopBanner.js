@@ -15,7 +15,7 @@ const TopBanner = () => {
                             <h2>web developer & graphic designer</h2>
                             <div className='mt-4'>
                             <button className='top-banner-button1'>View More Details</button>
-                            <button className='top-banner-button2'>Contact Us</button>
+                            <a className='top-banner-button2' href='https://drive.google.com/file/d/13dan1Mfn09e1bSsXmSGr3uttYCBLcalH/view?usp=sharing' alt=''>CV</a>
                             </div>
                         </div>
                     </Col>

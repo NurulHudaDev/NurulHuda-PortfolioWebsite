@@ -36,9 +36,11 @@
 }
 .top-banner-button2{
     margin-left: 20px;
-    background-color: gainsboro;
-    padding: 10px;
+    background-color: rgb(85, 88, 134);
+    padding: 10px 20px;
     border: none;
+    text-decoration: none;
+    color: #fff;
 }
 .top-banner-button2:hover{
     background-color: ghostwhite;

@@ -4,6 +4,7 @@ import * as ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareFull } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css'
+
 const Skills = () => {
     const Progress = ({done}) => {
         const [style, setStyle] = React.useState({});

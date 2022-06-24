@@ -19,13 +19,13 @@
     margin-top: 12rem;
 }
 .top-banner-content h1{
-    color: rgb(9, 9, 195);
+    color: #4070F5;
 }
 .top-banner-content h2{
     color: rgb(35, 34, 34);
 }
 .top-banner-button1{
-    background-color: rgb(9, 9, 195);
+    background-color: #4070F5;
     padding: 10px;
     border: none;
     color: #fff;
@@ -47,4 +47,5 @@
 }
 .banner-image img{
     margin-top: 6rem;
+    width: 70%;
 }

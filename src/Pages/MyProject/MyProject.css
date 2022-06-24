@@ -61,6 +61,9 @@
     margin: auto;
     margin-top: 10px;
 }
+.card-image{
+    width: 100%;
+}
 .projeact-button{
     text-decoration: none;
     background-color: #4070F4;

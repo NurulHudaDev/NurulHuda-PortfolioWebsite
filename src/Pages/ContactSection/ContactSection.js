@@ -7,7 +7,7 @@ const ContactSection = () => {
         <div className='contact-section'>
             <Container>
                 <h1 className='text-center mb-5'>Contact Me</h1>
-                <Row className='d-flex align-items-center'>
+                <Row className='d-flex align-items-center gy-5'>
                     <Col la={6} md={6} sm={12}>
                         <h2>Discuss Now</h2>
                         <div className='mb-4'>

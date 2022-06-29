@@ -1,4 +1,4 @@
-.top-banner{
+/* .top-banner{
     background-image: url(../../images/banner_image.jpg);
     min-height: 600px;
     background-attachment: fixed;
@@ -14,38 +14,52 @@
         background-size: cover;
         width: 100%;
         background: rgba(241, 241, 242, 0.5);
-}
-.top-banner-content{
+} */
+.top-banner-content {
     margin-top: 12rem;
 }
-.top-banner-content h1{
-    color: #4070F5;
+
+.top-banner-content h1 {
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+    color: transparent;
 }
-.top-banner-content h2{
-    color: rgb(35, 34, 34);
+
+.top-banner-content h2 {
+    color: #fff;
 }
-.top-banner-button1{
-    background-color: #4070F5;
+
+.top-banner-button1 {
+    background-color: #2f0ea4;
+    background-image: linear-gradient(50deg, #2f0ea4 0%, #0797df 74%);
     padding: 10px;
     border: none;
     color: #fff;
     font-weight: 600;
 }
-.top-banner-button1:hover{
-    background-color: rgb(24, 24, 41);
+
+.top-banner-button1:hover {
+    background-color: #e10a3c;
+    background-image: linear-gradient(50deg, #e10a3c 0%, #ff0942 74%);
 }
-.top-banner-button2{
+
+.top-banner-button2 {
     margin-left: 20px;
-    background-color: rgb(85, 88, 134);
+    background-color: #3e29f2;
+    background-image: linear-gradient(50deg, #3e29f2 0%, #1d05f2 74%);
     padding: 10px 20px;
     border: none;
     text-decoration: none;
     color: #fff;
 }
-.top-banner-button2:hover{
-    background-color: ghostwhite;
+
+.top-banner-button2:hover {
+    background-color: #260ffb;
+    background-image: linear-gradient(50deg, #260ffb 0%, #1805c3 74%);
+    color: #fff;
 }
-.banner-image img{
+
+.banner-image img {
     margin-top: 6rem;
     width: 70%;
 }

@@ -5,7 +5,7 @@ import './ContactSection.css'
 const ContactSection = () => {
     return (
         <div className='contact-section'>
-            <Container>
+            <Container className='contact-text'>
                 <h1 className='text-center mb-5'>Contact Me</h1>
                 <Row className='d-flex align-items-center gy-5'>
                     <Col la={6} md={6} sm={12}>
@@ -19,7 +19,7 @@ const ContactSection = () => {
                     <Col la={6} md={6} sm={12}>
                         <h2>Quick Connect</h2>
                         <div>
-                            <Form>
+                            <Form className='form'>
                                 <Form.Group className="mb-3">
                                     <Form.Label>Name</Form.Label>
                                     <Form.Control type="text" />

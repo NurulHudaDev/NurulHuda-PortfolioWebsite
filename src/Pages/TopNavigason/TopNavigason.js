@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Logo from '../../Logo/my logo.png'
 import './TopNavigason.css'
 
 const TopNavigason = () => {
@@ -9,7 +10,7 @@ return (
   <div>
     <Navbar className="nav-bg" fixed='top' collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to='/'>NURUL HUDA</Navbar.Brand>
+        <Navbar.Brand className='nave d-flex align-items-center' as={Link} to='/'><img src={Logo} alt='' width="40" height="40" className="d-inline-block align-text-top" /> NURUL HUDA</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

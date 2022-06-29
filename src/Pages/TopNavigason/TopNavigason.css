@@ -3,13 +3,18 @@
     color: #fff;
     font-weight: 600;
 }
+.nave img{
+    width: 50%;
+}
 .nav-title-scroll{
     font-size: 20px;
     color: #4070F5;
     font-weight: 600; 
 }
 .nav-bg{
-    background-color: #031e6e;
+    background-color: #090533;
+    background-image: linear-gradient(250deg, #090533 0%, #000000 74%);
+    box-shadow: rgba(238, 9, 9, 0.25) 0px 6px 12px -2px, rgba(231, 6, 6, 0.3) 0px 3px 7px -3px;
     padding: 15px;
 }
 .nav-bg-scroll{
